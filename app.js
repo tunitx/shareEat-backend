@@ -5,7 +5,7 @@ app.use(express.json());
 const mongo = require('./db.controller/mongo')
 const cors = require('cors');
 app.use(cors());
-
+//sneha doesnt love tushar
 const signin = require('./routes/signin');
 const signup = require('./routes/signup');
 const registerDonor = require('./routes/registerDonor');
